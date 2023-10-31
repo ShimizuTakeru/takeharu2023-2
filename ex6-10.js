@@ -1,2 +1,2 @@
 function imgchange1(){document.getElementById('logo').src='./image/saitama02.png';}
-function imgchange2(){document.getElementById('
+function imgchange2(){document.getElementById('logo2').src='./image/saitama01.png';}
