@@ -8,3 +8,4 @@ function hyoji13(){
   if(cnt13<11){
     //現在より1文字多く切り出して表示
     document.timer13.moji13.value=str13.substr(0,cnt13+1);}
+  
