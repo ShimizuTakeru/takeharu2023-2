@@ -15,5 +15,6 @@ function nazo79(){
     alert('あたり！');
   }
   else{
-    alert('はずれ！');}
+    alert('はずれ！');
+  }
   }
