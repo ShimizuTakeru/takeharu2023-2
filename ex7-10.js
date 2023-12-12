@@ -2,8 +2,7 @@ function BMI710(){
   var x=document.getElementById('sintyo1').value;
   var y=document.getElementById('taiju1').value;
   var BMI2=Number(y)/((Number(x)/100)*(Number(x)/100));
-
-  var classif;
+  
   if(Number(BMI2)<18.5){alert('あなたのBMIは'+(Number(BMI2))+'です。この体重は「低体重」となります。');}
   else if(Number(BMI2)<25){alert('あなたのBMIは'+(Number(BMI2))+'です。この体重は「普通」となります。');}
   else{alert('あなたのBMIは'+(Number(BMI2))+'です。この体重は「肥満」となります。');}
