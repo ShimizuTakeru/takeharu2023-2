@@ -8,7 +8,7 @@ function BMI710(){
   else if(BMI2<25){classif='普通';}
   else{classif='肥満';}
 
-  alert('あなたのBMIは'+'BMI2'+'です。この体重は'+'「classif」'+'となります。');}
+  alert('あなたのBMIは'+'BMI2'+'です。この体重は'+'「'+'classif'+'」'+'となります。');}
   
   //if(document.getElementById('answer79').value=='夢'){
     //alert('あたり！');}
