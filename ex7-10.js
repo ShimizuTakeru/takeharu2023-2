@@ -1,7 +1,7 @@
 function BMI710(){
-  var x=document.getElementById('sintyo1').value;
-  var y=document.getElementById('taiju1').value;
-  var z=(Number(y)/((Number(x)/100)*(Number(x)/100)));
+  var a=document.getElementById('sintyo1').value;
+  var b=document.getElementById('taiju1').value;
+  var z=(Number(b)/((Number(a)/100)*(Number(a)/100)));
   
   if(Number(z)<18.5){alert('あなたのBMIは'+(Number(z))+'です。この体重は「低体重」となります。');}
   else if(Number(z)<25){alert('あなたのBMIは'+(Number(z))+'です。この体重は「普通」となります。');}
