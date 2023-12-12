@@ -4,9 +4,9 @@ function BMI710(){
   var BMI2=Number(y)/((Number(x)/100)*(Number(x)/100));
 
   var classif;
-  if(BMI2<18.5){classif='低体重';}
-  else if(BMI2<25){classif='普通';}
-  else{classif='肥満';}
+  if(('BMI2')<18.5){('classif')='低体重';}
+  else if(('BMI2')<25){('classif')='普通';}
+  else{('classif')='肥満';}
 
   alert('あなたのBMIは'+'BMI2'+'です。この体重は'+'「'+'classif'+'」'+'となります。');}
   
