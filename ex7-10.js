@@ -4,11 +4,11 @@ function BMI710(){
   var BMI2=Number(y)/((Number(x)/100)*(Number(x)/100));
 
   var classif;
-  if(Number(BMI2)<18.5){'classif'='低体重';}
-  else if(Number(BMI2)<25){'classif'='普通';}
-  else{'classif'='肥満';}
+  if(Number(BMI2)<18.5){alert('あなたのBMIは'+(Number(BMI2))+'です。この体重は「低体重」となります。');}
+  else if(Number(BMI2)<25){alert('あなたのBMIは'+(Number(BMI2))+'です。この体重は「普通」となります。');}
+  else{alert('あなたのBMIは'+(Number(BMI2))+'です。この体重は「肥満」となります。');}
 
-  alert('あなたのBMIは+'Number(BMI2)'+です。この体重は'+'「'+'classif'+'」'+'となります。');}
+  //alert('あなたのBMIは+'Number(BMI2)'+です。この体重は'+'「'+'classif'+'」'+'となります。');}
   
   //if(document.getElementById('answer79').value=='夢'){
     //alert('あたり！');}
