@@ -1,4 +1,7 @@
-
+function uru711(){
+  if(Number(seireki)/4){alert('この年は閏年です。');}
+  else{alert('この年は平年です。');}
+}
 
 
 //function BMI710(){
