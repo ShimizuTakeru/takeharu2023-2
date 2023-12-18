@@ -1,8 +1,10 @@
 function uru711(){
-  if(Number(seireki)/4){alert(Number(seireki)+'は閏年です。');}
-    else if(Number(seireki)/100 && Number(seireki)/400){alert(Number(seireki)+'は閏年です。');}
-      else if(Number(seireki)/100){alert(Number(seireki)+'は平年です。');}
-  else{alert(Number(seireki)+'は平年です。');}
+  var a=document.getElementById('seireki').value;
+  
+  if(Number(a)/4){alert(Number(a)+'は閏年です。');}
+    else if(Number(a)/100 && Number(a)/400){alert(Number(a)+'は閏年です。');}
+      else if(Number(a)/100){alert(Number(a)+'は平年です。');}
+  else{alert(Number(a)+'は平年です。');}
 }
 
 //閏年、平年の定義
